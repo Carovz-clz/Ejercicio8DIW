@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+</head>
+
+<body>
+  <h1>Registro</h1>
+  <form method="POST" action="https://webhook.site/a3381f4e-70cd-4a24-9b72-4634dca3e8df">
+    <label for="nombre">Nombre:</label>
+    <input type="text" placeholder="Carol" name="nombre" />
+
+    <br>
+
+    <label>Email:</label>
+    <input name="email" type="email" placeholder="tu email" />
+
+    <br>
+
+    <label>Descripción:</label><br>
+    <textarea name="descripcion" rows="10" cols="50">Escribe aquí la descripción</textarea>
+
+    <br>
+
+    <label for="birthday">Birthday: </label>
+    <input type="date" name="birthday" />
+
+    <br>
+
+    <label for="colorPreferido">Color preferido: </label>
+    <input name="colorPreferido" type="color" />
+
+    <br>
+
+    <label for="nivel">Nivel de inglés: </label>
+    <input name="nivel" type="range" min="1" max="10" />
+
+    <br>
+
+    <label for="fichero">Adjuntar curriculum: </label>
+    <input name="fichero" type="file">
+
+    <br><br>
+
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+
+</html>
